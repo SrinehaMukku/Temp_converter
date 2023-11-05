@@ -1,0 +1,48 @@
+
+body {
+    background-color: #F2F2F2;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 40%;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FFF;
+}
+.header {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.celsius-input {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.celsius-input input{
+    align-items: center;
+
+}
+.text{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #bdb5b5;
+    font-size: 20px;
+}
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+}
