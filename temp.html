@@ -12,9 +12,11 @@
             <h1>Temperature Converter</h1>
         </div>
         <div class="celsius-input">
-            <input type="text" class="text" placeholder="Enter temperature in Celsius">
+            <input type="text" id="text" placeholder="Enter temperature in Celsius">
             <br><br>
-            <button class="btn">CONVERT</button>
+            <button onclick="convertToFar()">CONVERT</button>
+            <br><br>
+            <p>Temperature in Fahrenheit: <u><span id="result"></span></u></p>
         </div>
         <div class="result"></div>
     </div>
