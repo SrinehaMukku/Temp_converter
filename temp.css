@@ -3,6 +3,7 @@ body {
     padding-left: 30%;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .container {
     margin-top: 50px;
@@ -39,4 +40,10 @@ input{
 .result {
     margin-top: 20px;
     font-size: 24px;
+}
+.btn{
+    margin-left: 200px;
+}
+p{
+  font-size: larger; 
 }
